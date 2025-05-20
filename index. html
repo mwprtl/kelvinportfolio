@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelvin Mwangi | Portfolio</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header, section, footer { padding: 20px; }
+    header { background: #0a192f; color: white; text-align: center; }
+    nav a { margin: 0 10px; color: #64ffda; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { border-bottom: 1px solid #ddd; max-width: 900px; margin: auto; background: #fff; border-radius: 10px; margin-top: 20px; padding: 30px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+    h2 { color: #0a192f; }
+    ul { list-style: none; padding: 0; }
+    footer { text-align: center; background: #0a192f; color: white; margin-top: 20px; padding: 20px; }
+    .contact-info a { color: #0a192f; text-decoration: none; }
+    form { display: flex; flex-direction: column; gap: 10px; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { padding: 10px 20px; background-color: #0a192f; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background-color: #12263a; }
+    .intro { font-size: 1.1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kelvin Mwangi</h1>
+    <p>👋 Hey there! I'm Kelvin — passionate about tech, coding, and creating cool things that make life easier!</p>
+    <nav>
+      <a href="#bio">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="#message">Say Hello 👋</a>
+    </nav>
+  </header>
+
+  <section id="bio">
+    <h2>About Me</h2>
+    <p class="intro">I’m a Computer Science student at the University of Kabianga, with a love for building useful and friendly digital solutions. Whether it’s an app to help farmers or a secure password manager, I’m all about solving real problems with code.</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <h3>Education</h3>
+    <ul>
+      <li>BSc in Computer Science, University of Kabianga (Expected Dec 2025)</li>
+      <li>KCSE: Gitige High School, C+ (2020)</li>
+      <li>KCPE: Aguthi Primary School</li>
+    </ul>
+    <h3>Experience</h3>
+    <ul>
+      <li>Intern, Kenya National Bureau of Statistics – 2025</li>
+    </ul>
+    <h3>Achievements</h3>
+    <ul>
+      <li>School of Science Delegate – University of Kabianga</li>
+      <li>Academic Prefect – Gitige High School</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <h3>Agrisphere (Mobile App)</h3>
+    <p>💡 A platform that connects farmers to buyers, helping reduce crop wastage. Built with Kotlin + Firebase.</p>
+    <h3>School Management System (Desktop GUI)</h3>
+    <p>📚 Manages student data and generates reports. Built with Python, wxPython, and MySQL.</p>
+    <h3>File Encryption & Password Manager</h3>
+    <p>🔐 An ongoing tool to protect local files and passwords. Built in Python with SQLite.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>🛠️ Python, Java, Kotlin, C, C++, HTML, CSS</li>
+      <li>🔧 Tools: Firebase, Visual Studio, MySQL, Git</li>
+    </ul>
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>🤝 Communication, Leadership, Adaptability, Problem-solving, Time management</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>📬 I'd love to hear from you — whether you're interested in working together, want to collaborate, or just want to say hi! 😊</p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:kelvinwathoni@gmail.com">kelvinwathoni@gmail.com</a></p>
+      <p>Phone: <a href="tel:+254715209342">0715209342</a></p>
+      <p>Location: Nairobi, Kenya</p>
+      <p>GitHub: <a href="https://github.com/KelvinMwangi" target="_blank">github.com/KelvinMwangi</a></p>
+      <p>Download CV: <a href="#">(Coming Soon)</a></p>
+    </div>
+  </section>
+
+  <section id="message">
+    <h2>Say Hello 👋</h2>
+    <p>Have a question, suggestion, or opportunity in mind? Drop a message below — I’ll get back to you ASAP! 🚀</p>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>🌟 Thanks for stopping by. Let's build something amazing together!</p>
+    <p>&copy; 2025 Kelvin Mwangi. All rights reserved.</p>
+  </footer>
+</body>
+</html>
